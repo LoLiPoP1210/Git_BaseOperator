@@ -39,5 +39,6 @@ TEST (testcase2,test)
 
 int main (int argc,char** argv) {
     testing::InitGoogleTest(&argc,argv);
+    std::cout << "this is A;" << std::endl;
     return RUN_ALL_TESTS();
 }

@@ -1,0 +1,3 @@
+"E:\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\gtest_gmock.dir/objects.a
+E:\JetBrains\mingw64\bin\ar.exe cr CMakeFiles\gtest_gmock.dir/objects.a @CMakeFiles\gtest_gmock.dir\objects1.rsp
+E:\JetBrains\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\gtest_gmock.dir/objects.a -Wl,--no-whole-archive -o gtest_gmock.exe -Wl,--out-implib,libgtest_gmock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gtest_gmock.dir\linklibs.rsp
